@@ -1,5 +1,24 @@
 [
   {
+    "version": "0.18.3",
+    "date": "2026-04-28",
+    "summary": "This release adds configurable quick tool entry placement, improves the default time filter, and fixes modal layering and data directory safety messaging.",
+    "changes": [
+      {
+        "type": "feat",
+        "items": [
+          "Add a setting for the placement of the quick tool entry.",
+          "Improve the default time filter experience.",
+          "Prevent data directories from being set inside the app installation directory."
+        ]
+      },
+      {
+        "type": "fix",
+        "items": ["Fix modal style override issues.", "Fix modal layering issues in the settings page."]
+      }
+    ]
+  },
+  {
     "version": "0.18.2",
     "date": "2026-04-26",
     "summary": "This release adds session type filters for subscriptions, paginated remote session discovery, and configurable per-request message limits.",
